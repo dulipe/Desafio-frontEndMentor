@@ -1,7 +1,6 @@
 * {
     margin: 0;
     box-sizing: border-box;
-    padding: 0;
 }
 
 body {
@@ -23,24 +22,30 @@ img {
 .container {
     display: flex;
     flex-direction: row;
-    align-items: center;
     color: white;
     margin: 100px 150px 60px 150px;
     background-color: hsl(244, 38%, 16%);
 }
 
+.paragrafo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
 .p1 {
     font-family: sans-serif;
-    font-size: 50px;
-    text-align: center;
-    margin-top: initial;
+    font-size: 45px;
+    margin: 40px;
+    
 }
 
 .p2 {
     font-family: sans-serif;
     font-size: 20px;
-    text-align: start;
-    padding: 50px;
+    padding: 20px;
+    margin-bottom: 20px;
+
 }
 
 .terceira_linha {
